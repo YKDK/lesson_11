@@ -1,0 +1,336 @@
+.wrapper {
+	/* overflow: hidden; */
+	position: relative;
+	min-height: 100%;
+	padding: 50px;
+  background: url("../img/1-1.jpg") no-repeat 0 0 / cover;
+}
+
+.header{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top: 0;
+	padding: 15px;
+	background-color: yellowgreen;
+	z-index: 100;
+}
+
+
+.main {
+}
+.main__container {
+}
+.main__practice {
+}
+.main__position {
+}
+.position__smile {
+  max-width: 250px;
+  padding: 10px;
+  position: relative;
+  margin: 0 auto;
+
+}
+.position__relative {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background:yellow;
+  padding: 10px;
+  position: relative;
+  box-shadow: 1px 1px 1px rgb(219, 187, 7), inset 1px 1px 10px rgb(219, 198, 4);
+  
+}
+
+.position__relative .eye{
+  width: 40px;
+  height: 15px;
+  margin: 0 auto;
+  border: 1px dotted #000;
+  background:rgb(141, 141, 127);
+  text-align: center;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+}
+
+.eye--left{
+  top: 40px;
+  right: 50px;
+}
+
+.eye--right{
+  top: 25px;
+  left: 50px;
+}
+
+.position__button img{
+  max-width: 20px;
+  position: absolute;
+  left: 45%;
+  top: 45%;
+  z-index: 1;
+}
+
+.position__relative .smile{
+  width: 150px;
+  height: 30px;
+  background: rgb(151, 151, 144);
+  border-radius: 50% 50% 49% 51% / 0% 0% 100% 100%;
+  margin: 0 auto;
+  position: relative;
+  top: 90px;
+}
+
+.smile__lips{
+  width: 130px;
+  height: 15px;
+  border-radius: 50% 50% 49% 51% / 0% 0% 100% 100%;
+  margin: 0px auto;
+  position: relative;
+  top: 6px;
+  border: 1px dotted #000;
+  background: white;
+}
+
+
+.position__relative:hover .smile{
+  border-radius: 50%;
+  border: 1px dotted #000;
+  background: #000;
+}
+.position__relative:hover .smile__lips{
+  border-radius: 50%;
+  border: 1px dotted #000;
+}
+
+.position__relative:hover .eyes{
+  width: 15px;
+  height: 15px;
+  background: #000;
+}
+
+.position__relative:hover{
+}
+
+.position div:nth-child(2):active + .position__absolute .position__citroen img:last-child{
+  visibility: hidden;
+  opacity: 0;
+}
+.position div:nth-child(2):hover .position__button img{
+  max-width: 30%;;
+  top: 30%;
+  left: 35%;
+}
+
+.position #fixed:target ~ div.position__absolute .position__citroen img:not(:last-child){
+  opacity: 0;
+}
+ 
+.position #smile:target ~ div.position__absolute .position__citroen img:last-child{
+  opacity: 1;
+}
+
+.position__absolute {
+  margin-bottom: 50px;
+}
+.position__citroen{
+  width: 937px;
+  height: 527px;
+  margin: 0 auto;
+  position: relative;
+}
+.position__citroen img:not(:last-child){
+  position: absolute;
+  width: 188px;
+  height: 106px;
+
+}
+.position__citroen img:hover{
+  opacity: 0;
+}
+.position__citroen--part1{
+
+}
+.position__citroen--part2{
+  top: 6px;
+  left: 186px;
+}
+.position__citroen--part3{
+  top: 6px;
+  left: 374px;
+}
+.position__citroen--part4{
+  top: 6px;
+  left: 560px;
+}
+.position__citroen--part5{
+  top: 6px;
+  left: 748px;
+}
+.position__citroen--part6{
+  top: 111px;
+  left: 1px;
+}
+.position__citroen--part7{
+  top: 111px;
+  left: 188px;
+}
+.position__citroen--part8{
+  top: 111px;
+  left: 375px;
+}
+.position__citroen--part9{
+  top: 111px;
+  left: 560px;
+}
+.position__citroen--part10{
+  top: 111px;
+  left: 747px;
+}
+.position__citroen--part11{
+  top: 217px;
+  left: -1px;
+}
+.position__citroen--part12{
+  top: 217px;
+  left: 187px;
+}
+.position__citroen--part13{
+  top: 217px;
+  left: 374px;
+}
+.position__citroen--part14{
+  top: 217px;
+  left: 560px;
+}
+.position__citroen--part15{
+  top: 217px;
+  left: 747px;
+}
+.position__citroen--part16{
+  top: 323px;
+  left: -1px;
+}
+.position__citroen--part17{
+  top: 323px;
+  left: 187px;
+}
+
+.position__citroen--part18{
+  top: 323px;
+  left: 374px;
+}
+.position__citroen--part19{
+  top: 323px;
+  left: 560px;
+}
+.position__citroen--part20{
+  top: 323px;
+  left: 747px;
+}
+.position__citroen--part21{
+  top: 429px;
+  left: -1px;
+}
+.position__citroen--part22{
+  top: 429px;
+  left: 187px;
+}
+.position__citroen--part23{
+  top: 429px;
+  left: 374px;
+}
+.position__citroen--part24{
+  top: 429px;
+  left: 560px;
+}
+.position__citroen--part25{
+  top: 429px;
+  left: 747px;
+}
+
+.position__fixed a{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 10%;
+  left: 90%;
+  z-index: 101;
+  background: url("../icons/Vector-red.svg") no-repeat center center / 20px, rgba(255, 146, 3, 0.712);
+  box-shadow: 2px 2px 4px #000, inset 1px 1px 4px rgb(185, 128, 6);
+
+}
+.position__fixed a:active{
+  box-shadow: none;
+}
+
+.position__sticky{
+  height: 2000px;
+}
+.european-cups__title{
+  font-weight: 900;
+  color: blue;
+  font-size: 30px;
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+  background:yellow;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px #000;
+  top: 0;
+  z-index: 1;
+  position: sticky;
+}
+
+.position__sticky img{
+  display: block;
+  max-width: 500px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px #000;
+
+}
+
+.european-cups__league-champions {
+  position: sticky;
+  top:30px;
+  z-index: 0;
+
+
+}
+.european-cups__league-uefa {
+  position: sticky;
+  top: 40px;
+  z-index: 2;
+}
+.european-cups__league-conference {
+  position: sticky;
+  top: 50px;
+  z-index: 4;
+
+}
+
+.european-cups__area img{
+  max-width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  box-shadow: none;
+}
+
+.players__one img{
+  position: fixed;
+  top: 0; 
+  right: 0; 
+  background:url("../img/players/area.png") no-repeat 0 0 / 1000px;
+}
+.players__two img{
+background:url("../img/players/stadion.png") no-repeat 0 0 / contain;
+position: fixed;
+top: 0;
+left: 0;
+}
